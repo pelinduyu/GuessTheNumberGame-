@@ -12,7 +12,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Random rastgele = new Random();
-            int rastgeleSayi = rastgele.Next(1, 101); // 1 ile 100 arasında sayı
+            int rastgeleSayi = rastgele.Next(1, 101); // 1 ile 50 arasında sayı
             int tahmin;
             int hak = 7;
 
@@ -33,7 +33,7 @@ namespace ConsoleApp1
 
                 if (tahmin == rastgeleSayi)
                 {
-                    Console.WriteLine("\n🎉 Tebrikler! Doğru tahmin ettin.");
+                    Console.WriteLine("\n Tebrikler! Doğru tahmin ettin.");
                     break;
                 }
                 else if (tahmin < rastgeleSayi)
